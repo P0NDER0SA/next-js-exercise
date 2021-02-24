@@ -1,2 +1,1 @@
-# next-js-exercise
-Our next JS exercise
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
