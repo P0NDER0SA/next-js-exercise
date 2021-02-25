@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is the start of Dumb-Scrumb - a DTS Scrum Poker app.  
