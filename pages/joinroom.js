@@ -3,7 +3,7 @@ import Link from "next/link";
 import Layout, { siteTitle } from "../components/layout";
 import { useRouter } from "next/router";
 
-export default function() {
+export default function Joinroom() {
   const router = useRouter();
 
   const startRoom = async (event) => {
@@ -21,24 +21,16 @@ export default function() {
       </h1>{" "}
       <br />
       <form onSubmit={startRoom}>
-        <label
-          htmlFor="roomid"
-        >
-          Enter room Number:
-        </label>
         <input
           autoFocus
+          placeholder="Enter room number..."
           id="roomid"
           name="roomid"
           type="text"
           autoComplete="roomid"
           required
         />
-        <mybutton>
-          <button>
-            Join Room
-          </button>
-        </mybutton>
+        <button>Join Room</button>
       </form>
     </Layout>
   );

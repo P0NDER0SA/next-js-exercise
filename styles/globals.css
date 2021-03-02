@@ -6,7 +6,7 @@
   h1 {
     @apply text-6xl font-bold p-3 border rounded-xl;
   }
-  mybutton {
+  button {
     @apply p-6 mt-10 text-center border w-96 rounded-xl hover:text-white focus:text-gray-600 shadow-2xl hover:bg-gray-600;
   }
   input {
