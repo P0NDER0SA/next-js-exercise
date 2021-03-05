@@ -7,17 +7,18 @@ export default function Joinroom() {
   const router = useRouter();
 
   const startRoom = async (event) => {
+    event.preventDefault();
     router.push(`/rooms/${event.target.roomid.value}`);
   };
 
   return (
     <Layout join>
       <h1>
-        <Image src="/images/ace.jpg" width="50" height="50"></Image>
+        <Image src="/images/ace.jpg" width="70" height="70"></Image>
         <Link href="/">
           <a className="">{siteTitle}</a>
         </Link>
-        <Image src="/images/ace.jpg" width="50" height="50"></Image>
+        <Image src="/images/ace.jpg" width="70" height="70"></Image>
       </h1>{" "}
       <br />
       <form onSubmit={startRoom}>

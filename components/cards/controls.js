@@ -1,7 +1,9 @@
-export default function Controls({ text, route }) {
+export default function Controls() {
   return (
-    <section className="text-6xl font-bold p-3 border w-200 rounded-xl">
-      <p>add a bunch of our controls here</p>
+    <section className="text-6xl font-bold p-1 rounded-xl">
+      <button>show</button>
+      <button>hide</button>
+      <button>clear</button>
     </section>
   );
 }
